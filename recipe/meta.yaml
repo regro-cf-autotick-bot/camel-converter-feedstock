@@ -1,5 +1,5 @@
 {% set name = "camel-converter" %}
-{% set version = "3.1.1" %}
+{% set version = "4.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/camel_converter-{{ version }}.tar.gz
-  sha256: 73c1e31801d0f7baf08fe2a44e6a712e685496e490cab3cd9ce7222845502ef7
+  sha256: 06a9d357c185749bae9618352ba89b6a7f4ea920122d125d10582045b736c565
 
 build:
   noarch: python
